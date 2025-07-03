@@ -10,7 +10,7 @@
 
   <?php if ($nota['tipo'] === 'nota'): ?>
     <div style="white-space: pre-wrap; border: 1px solid #ccc; padding: 10px;">
-      <?= htmlspecialchars($nota['conteudo']) ?>
+      <?php echo $nota['conteudo'] ?>
     </div>
   <?php elseif ($nota['tipo'] === 'arquivo'): ?>
     <p>Arquivo disponível para download:</p>

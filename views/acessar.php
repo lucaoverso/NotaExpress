@@ -1,4 +1,3 @@
-<hr>
 <h2>Acessar uma nota existente</h2>
 <form action="/notaexpress/public/index.php" method="get">
   <input type="hidden" name="rota" value="acessar">
