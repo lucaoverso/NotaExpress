@@ -16,6 +16,8 @@ switch ($rota) {
         break;
 
     default:
+        include __DIR__ . '/../views/header.php';
         include __DIR__ . '/../views/form.php';
         include __DIR__ . '/../views/acessar.php';
+        include __DIR__ . '/../views/footer.php';
 }

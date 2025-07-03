@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
 <head>
-  <meta charset="UTF-8">
-  <title>NotaExpress - Criar nova nota</title>
-  <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
 </head>
 
 <body>
-  <h1>NotaExpress</h1>
   <form action="/notaexpress/public/index.php?rota=salvar" method="post" enctype="multipart/form-data">
     <div id="editor" style="height: 300px;"></div>
     <input type="hidden" name="conteudo" id="inputConteudo">

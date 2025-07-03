@@ -1,6 +1,5 @@
 <?php
 require_once '../core/Database.php';
-
 class Nota {
     // Método para criar uma nova nota/arquivo no banco, uso o "prepare" para adicionar uma camada de segurança contra SQL Injection.
     public static function salvar($codigo, $tipo, $conteudo, $expiracao = null) {

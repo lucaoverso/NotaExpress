@@ -3,7 +3,6 @@ require_once __DIR__ . '/../models/Nota.php';
 
 class NotaController
 {
-
     public function salvar()
     {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
